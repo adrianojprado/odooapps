@@ -1,0 +1,317 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_recurring_payments
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-22 11:26+0000\n"
+"PO-Revision-Date: 2023-07-22 08:46-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.3.1\n"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__amount
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__amount
+msgid "Amount"
+msgstr "Total"
+
+#. module: om_recurring_payments
+#. odoo-python
+#: code:addons/om_recurring_payments/models/recurring_payment.py:0
+#, python-format
+msgid "Amount Must Be Non-Zero Positive Number"
+msgstr "O valor deve ser um número positivo diferente de zero"
+
+#. module: om_recurring_payments
+#. odoo-python
+#: code:addons/om_recurring_payments/models/recurring_payment.py:0
+#, python-format
+msgid "Cannot delete done records !"
+msgstr "Não é possível excluir registros concluídos!"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__company_id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__company_id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_template_form
+msgid "Confirm"
+msgstr "Confirmar"
+
+#. module: om_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+msgid "Create Payment"
+msgstr "Criar Pagamento"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__create_uid
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__create_uid
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__create_date
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__create_date
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__currency_id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__currency_id
+msgid "Currency"
+msgstr "Moéda"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__date
+msgid "Date"
+msgstr "Data"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__recurring_period__days
+msgid "Days"
+msgstr "Dias"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__description
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__description
+msgid "Description"
+msgstr "Descrição"
+
+#. module: om_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_template_form
+msgid "Description..."
+msgstr "Descrição..."
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__display_name
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__display_name
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__display_name
+msgid "Display Name"
+msgstr "Nome de Exibição"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__state__done
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__recurring_payment__state__done
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__recurring_payment_line__state__done
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+msgid "Done"
+msgstr "Feito"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__state__draft
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__recurring_payment__state__draft
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__recurring_payment_line__state__draft
+msgid "Draft"
+msgstr "Rascunho"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__date_end
+msgid "End Date"
+msgstr "Data Final"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__journal_state
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__journal_state
+msgid "Generate Journal As"
+msgstr "Gerar diário como"
+
+#. module: om_recurring_payments
+#: model:ir.actions.server,name:om_recurring_payments.action_generate_recurring_payment_ir_actions_server
+#: model:ir.cron,cron_name:om_recurring_payments.action_generate_recurring_payment
+msgid "Generate Recurring Payments"
+msgstr "Gerar Pagamentos Recorrentes"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__journal_id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__journal_id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__journal_id
+msgid "Journal"
+msgstr "Diário"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template____last_update
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment____last_update
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line____last_update
+msgid "Last Modified on"
+msgstr "Última Modificação em"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__write_uid
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__write_uid
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__write_uid
+msgid "Last Updated by"
+msgstr "Última Modificação por"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__write_date
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__write_date
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__write_date
+msgid "Last Updated on"
+msgstr "Ultima Atualização em"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__recurring_period__months
+msgid "Months"
+msgstr "Meses"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__name
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__name
+msgid "Name"
+msgstr "Nome"
+
+#. module: om_recurring_payments
+#. odoo-python
+#: code:addons/om_recurring_payments/models/recurring_payment.py:0
+#, python-format
+msgid "New"
+msgstr "Novo"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__partner_id
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__partner_id
+msgid "Partner"
+msgstr "Parceiro"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__payment_id
+msgid "Payment"
+msgstr "Pagamento"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__payment_type
+msgid "Payment Type"
+msgstr "Tipo de Pagamento"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__journal_state__posted
+msgid "Posted"
+msgstr "Lançado"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__recurring_payment__payment_type__inbound
+msgid "Receive Money"
+msgstr "Receber Dinheiro"
+
+#. module: om_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+msgid "Recurring Entries"
+msgstr "Entradas Recorrentes"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__recurring_interval
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__recurring_interval
+msgid "Recurring Interval"
+msgstr "Intervalo Recorrente"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__line_ids
+msgid "Recurring Lines"
+msgstr "Linhas Recorrentes"
+
+#. module: om_recurring_payments
+#: model:ir.actions.act_window,name:om_recurring_payments.action_account_recurring_payment
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__recurring_payment_id
+#: model:ir.ui.menu,name:om_recurring_payments.menu_recurring_payment
+#: model:ir.ui.menu,name:om_recurring_payments.menu_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+msgid "Recurring Payment"
+msgstr "Pagamento Recorrente"
+
+#. module: om_recurring_payments
+#: model:ir.model,name:om_recurring_payments.model_recurring_payment_line
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+msgid "Recurring Payment Line"
+msgstr "Linha de Pagamento Recorrente"
+
+#. module: om_recurring_payments
+#: model:ir.model,name:om_recurring_payments.model_recurring_payment
+msgid "Recurring Payment("
+msgstr "Pagamento Recorrente("
+
+#. module: om_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_account_recurring_payment_tree
+msgid "Recurring Payments"
+msgstr "Pagamentos Recorrentes"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__recurring_period
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__recurring_period
+msgid "Recurring Period"
+msgstr "Período Recorrente"
+
+#. module: om_recurring_payments
+#: model:ir.actions.act_window,name:om_recurring_payments.action_account_recurring_template
+#: model:ir.model,name:om_recurring_payments.model_account_recurring_template
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__template_id
+#: model:ir.ui.menu,name:om_recurring_payments.menu_recurring_template
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_account_recurring_template_tree
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_template_form
+msgid "Recurring Template"
+msgstr "Modelo Recorrente"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__recurring_payment__payment_type__outbound
+msgid "Send Money"
+msgstr "Enviar Dinheiro"
+
+#. module: om_recurring_payments
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_payment_form
+#: model_terms:ir.ui.view,arch_db:om_recurring_payments.view_recurring_template_form
+msgid "Set To Draft"
+msgstr "Definir como Rascunho"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__date_begin
+msgid "Start Date"
+msgstr "Data Inicial"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields,field_description:om_recurring_payments.field_account_recurring_template__state
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment__state
+#: model:ir.model.fields,field_description:om_recurring_payments.field_recurring_payment_line__state
+msgid "Status"
+msgstr "Situação"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__journal_state__draft
+msgid "Un Posted"
+msgstr "Não Lançado"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__recurring_period__weeks
+msgid "Weeks"
+msgstr "Semanas"
+
+#. module: om_recurring_payments
+#: model:ir.model.fields.selection,name:om_recurring_payments.selection__account_recurring_template__recurring_period__years
+msgid "Years"
+msgstr "Anos"
+
+#. module: om_recurring_payments
+#. odoo-python
+#: code:addons/om_recurring_payments/models/recurring_payment.py:0
+#, python-format
+msgid "You cannot Set to Draft as one of the line is already in done state"
+msgstr "Você não pode Definir como Rascunho porque uma das linhas já está no estado concluído"
