@@ -48,7 +48,7 @@ msgstr "Contabilidade Angro-Saxonica"
 #. module: om_account_accountant
 #: model:ir.ui.menu,name:om_account_accountant.menu_accounting_statement_bank
 msgid "Bank Statements"
-msgstr "Estratos Bancários"
+msgstr "Extratos Bancários"
 
 #. module: om_account_accountant
 #: model:ir.ui.menu,name:om_account_accountant.menu_accounting_bank_and_cash
